@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+    <style>
+        h1{
+            text-align: center;
+
+        }
+        body{
+            background-color: #3cfcbf;
+        }
+        @media screen  and (max-width:425px){
+            body{  
+                background-color: #c94f42;
+            }
+        }
+        @media screen  and ( min-width:425.1px) and ( max-width:768px){
+            body{  
+                background-color: #37dddd;
+            }
+        }
+        @media screen  and ( min-width:768.1px) and ( max-width:1024px){
+            body{  
+                background-color: #c4b22b;
+            }
+        }
+        @media screen  and ( min-width:1024.1px ) and ( max-width: 1440px){
+            body{  
+                background-color: #318931;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1> This is a Media Query demo page.</h1>
+    
+</body>
+</html>
